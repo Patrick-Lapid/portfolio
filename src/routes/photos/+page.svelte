@@ -1,3 +1,18 @@
+<svelte:head>
+    <title>Photos | Patrick Lapid</title>
+    <meta name="description" content="Photo library by Patrick Lapid. Photography captured with Fujifilm X-T5 and XF 16-55mm f/2.8 R LM WR II lens." />
+    <meta name="keywords" content="Patrick Lapid, Photography, Fujifilm X-T5, Landscape Photography, Photo Gallery" />
+    <meta name="author" content="Patrick Lapid" />
+    <meta property="og:title" content="Photos | Patrick Lapid" />
+    <meta property="og:description" content="Photo library by Patrick Lapid. Photography captured with Fujifilm X-T5 and XF 16-55mm f/2.8 R LM WR II lens." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://patricklapid.com/photos" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Photos | Patrick Lapid" />
+    <meta name="twitter:description" content="Photo library by Patrick Lapid. Photography captured with Fujifilm X-T5 and XF 16-55mm f/2.8 R LM WR II lens." />
+    <link rel="canonical" href="https://patricklapid.com/photos" />
+</svelte:head>
+
 <div class="min-h-screen bg-white font-facebook">
     <div class="container mx-auto px-4 sm:px-6 lg:px-0 max-w-6xl">
         <div class="pt-20 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">

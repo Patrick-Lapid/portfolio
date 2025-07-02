@@ -3,13 +3,13 @@
         <div class="pt-20 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
             <article>
                 <div class="text-center mb-16 md:mb-20">
-                    <h1 class="text-2xl md:text-3xl lg:text-3xl font-bold text-gray-900 mb-4 animate-fade-in">
+                    <h1 class="text-xl md:text-xl lg:text-2xl font-bold text-gray-900 mb-4 animate-fade-in-delayed">
                         Photo Library
                     </h1>
-                    <p class="text-lg md:text-lg text-gray-600 mb-2 animate-fade-in-delayed">
+                    <p class="text-lg md:text-lg text-gray-600 mb-2 animate-fade-in-delayed-2">
                         Fujifilm X-T5
                     </p>
-                    <p class="text-base md:text-md text-gray-500 animate-fade-in-delayed-2">
+                    <p class="text-base md:text-md text-gray-500 animate-fade-in-delayed-3 mb-8">
                         XF 16-55mm f/2.8 R LM WR II
                     </p>
                 </div>

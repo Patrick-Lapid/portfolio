@@ -2,7 +2,7 @@
     <div class="container mx-auto px-6 sm:px-6 lg:px-8 max-w-3xl">
         <div class="pt-20 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
             <article>
-                <h1 class="mb-12 font-bold text-lg sm:text-xl lg:text-3xl text-gray-900 mb-6 sm:mb-8 leading-tight animate-fade-in">
+                <h1 class="mb-12 font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 mb-6 sm:mb-8 leading-tight animate-fade-in">
                     Patrick Lapid
                 </h1>
                 <p class="text-lg mb-6 text-gray-700 max-w-3xl mx-auto animate-fade-in-delayed">

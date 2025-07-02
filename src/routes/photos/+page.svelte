@@ -14,17 +14,17 @@
 </svelte:head>
 
 <div class="min-h-screen bg-white font-facebook">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-0 max-w-6xl">
+    <div class="container mx-auto px-4 sm:px-8 lg:px-8 max-w-6xl">
         <div class="pt-20 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
             <article>
                 <div class="text-center mb-16 md:mb-20">
-                    <h1 class="text-xl md:text-xl lg:text-2xl font-bold text-gray-900 mb-4 animate-fade-in-delayed">
+                    <h1 class="text-xl lg:text-2xl font-bold text-gray-900 mb-4 animate-fade-in-delayed">
                         Photo Library
                     </h1>
-                    <p class="text-lg md:text-lg text-gray-600 mb-2 animate-fade-in-delayed-2">
+                    <p class="text-md lg:text-lg text-gray-600 mb-2 animate-fade-in-delayed-2">
                         Fujifilm X-T5
                     </p>
-                    <p class="text-base md:text-md text-gray-500 animate-fade-in-delayed-3 mb-8">
+                    <p class="text-base lg:text-md text-gray-500 animate-fade-in-delayed-3 mb-6 lg:mb-8">
                         XF 16-55mm f/2.8 R LM WR II
                     </p>
                 </div>

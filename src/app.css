@@ -1,2 +1,32 @@
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
+
+@font-face {
+    font-family: 'Sohne';
+    src: url('/fonts/Sohne-Buch.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Facebook';
+    src: url('/fonts/Facebook-sans-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Newsreader';
+    src: url('/fonts/Newsreader-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@theme {
+    --font-sohne: 'Sohne', sans-serif;
+    --font-facebook: 'Facebook', sans-serif;
+    --font-newsreader: 'Newsreader', serif;
+}

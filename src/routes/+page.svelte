@@ -1,21 +1,22 @@
 <svelte:head>
     <title>Patrick Lapid</title>
-    <meta name="description" content="Patrick Lapid is a Software Engineer at Meta/Instagram, crafting intuitive interfaces and building polished, expressive software. Previously worked at Workday, Socotec, CodeComply.Ai, and Disney." />
+    <meta name="description" content="Software Engineer at Instagram. Crafting intuitive interfaces and building polished, expressive software." />
     <meta name="keywords" content="Patrick Lapid, Software Engineer, Meta, Instagram, Frontend Developer, UI/UX, React, JavaScript, TypeScript" />
     <meta name="author" content="Patrick Lapid" />
-    <meta property="og:title" content="Patrick Lapid - Software Engineer" />
-    <meta property="og:description" content="Software Engineer at Meta/Instagram, crafting intuitive interfaces and building polished, expressive software." />
+    <meta property="og:title" content="Patrick Lapid" />
+    <meta property="og:description" content="Software Engineer at Instagram. Crafting intuitive interfaces and building polished, expressive software." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://patricklapid.com" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Patrick Lapid - Software Engineer" />
+    <meta name="twitter:title" content="Patrick Lapid" />
     <meta name="twitter:description" content="Software Engineer at Meta/Instagram, crafting intuitive interfaces and building polished, expressive software." />
     <link rel="canonical" href="https://patricklapid.com" />
 </svelte:head>
 
-<div class="min-h-screen bg-white font-facebook">
+<div class="min-h-screen font-facebook">
     <div class="container mx-auto px-6 sm:px-6 lg:px-8 max-w-3xl">
         <div class="pt-20 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
+
             <article>
                 <h1 class="font-bold text-xl lg:text-2xl text-gray-900 mb-10 lg:mb-12 leading-tight animate-fade-in">
                     Patrick Lapid

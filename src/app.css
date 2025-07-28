@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
 
+/* Prevent layout shift by always showing vertical scrollbar */
+html {
+  overflow-y: scroll;
+}
+
 @font-face {
     font-family: 'Sohne';
     src: url('/fonts/Sohne-Buch.otf') format('opentype');

@@ -1,30 +1,30 @@
 <svelte:head>
     <title>Photos | Patrick Lapid</title>
-    <meta name="description" content="Photo library by Patrick Lapid. Photography captured with Fujifilm X-T5 and XF 16-55mm f/2.8 R LM WR II lens." />
+    <meta name="description" content="Photo library by Patrick Lapid." />
     <meta name="keywords" content="Patrick Lapid, Photography, Fujifilm X-T5, Landscape Photography, Photo Gallery" />
     <meta name="author" content="Patrick Lapid" />
     <meta property="og:title" content="Photos | Patrick Lapid" />
-    <meta property="og:description" content="Photo library by Patrick Lapid. Photography captured with Fujifilm X-T5 and XF 16-55mm f/2.8 R LM WR II lens." />
+    <meta property="og:description" content="Photo library by Patrick Lapid." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://patricklapid.com/photos" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Photos | Patrick Lapid" />
-    <meta name="twitter:description" content="Photo library by Patrick Lapid. Photography captured with Fujifilm X-T5 and XF 16-55mm f/2.8 R LM WR II lens." />
+    <meta name="twitter:description" content="Photo library by Patrick Lapid." />
     <link rel="canonical" href="https://patricklapid.com/photos" />
 </svelte:head>
 
-<div class="min-h-screen bg-white font-facebook">
+<div class="min-h-screen">
     <div class="container mx-auto px-4 sm:px-8 lg:px-8 max-w-6xl">
         <div class="pt-20 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
             <article>
                 <div class="text-center mb-16 md:mb-20">
-                    <h1 class="text-xl lg:text-2xl font-bold text-gray-900 mb-4 animate-fade-in-delayed">
+                    <h1 class="text-xl lg:text-[20px] font-bold text-gray-900 mb-4 animate-fade-in-delayed">
                         Photo Library
                     </h1>
-                    <p class="text-md lg:text-lg text-gray-600 mb-2 animate-fade-in-delayed-2">
+                    <p class="text-md lg:text-[17px] text-gray-600 mb-2 animate-fade-in-delayed-2">
                         Fujifilm X-T5
                     </p>
-                    <p class="text-base lg:text-md text-gray-500 animate-fade-in-delayed-3 mb-6 lg:mb-8">
+                    <p class="text-base lg:text-[15px] text-gray-500 animate-fade-in-delayed-3 mb-6 lg:mb-8">
                         XF 16-55mm f/2.8 R LM WR II
                     </p>
                 </div>

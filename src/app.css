@@ -28,6 +28,7 @@ html {
 * {
   scrollbar-width: thin;
   scrollbar-color: #374151 transparent;
+  background: #f8fafc;
 }
 
 @font-face {

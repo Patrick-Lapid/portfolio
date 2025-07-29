@@ -4,6 +4,7 @@
 
 <script lang="ts">
   import "../app.css";
+  import { injectAnalytics } from '@vercel/analytics/sveltekit'
   import { onMount } from "svelte";
   import { getTimeEmoji, getTimezoneAbbr } from "$lib/time";
   
@@ -32,6 +33,8 @@
       if (timeInterval) clearInterval(timeInterval);
     };
   });
+
+  injectAnalytics();
 </script>
 
 <main>

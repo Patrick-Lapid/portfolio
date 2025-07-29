@@ -1,3 +1,7 @@
+<svelte:head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</svelte:head>
+
 <script lang="ts">
   import "../app.css";
   import { onMount } from "svelte";
@@ -22,7 +26,7 @@
   
   onMount(() => {
     updateTime();
-    timeInterval = setInterval(updateTime, 1000);
+    timeInterval = setInterval(updateTime, 5000);
     
     return () => {
       if (timeInterval) clearInterval(timeInterval);

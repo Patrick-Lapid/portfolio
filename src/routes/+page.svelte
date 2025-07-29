@@ -18,7 +18,7 @@
         <div class="pt-24 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
 
             <article>
-                <h1 class="font-inter text-xl lg:text-[20px] text-gray-700 mb-8 lg:mb-12 leading-tight animate-fade-in">
+                <h1 class="font-inter text-[18px] lg:text-[20px] text-gray-700 mb-8 lg:mb-12 leading-tight animate-fade-in">
                     Patrick Lapid
                 </h1>
                 <p class="text-md lg:text-[17px] mb-6 text-slate-600 max-w-3xl mx-auto animate-fade-in-delayed">

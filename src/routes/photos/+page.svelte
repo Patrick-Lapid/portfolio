@@ -91,14 +91,14 @@
     <div class="container mx-auto px-4 sm:px-8 lg:px-8 max-w-6xl">
         <div class="pt-24 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
             <article>
-                <div class="text-center mb-16 md:mb-20">
-                    <h1 class="text-xl lg:text-[20px] text-gray-700 mb-4 animate-fade-in-delayed">
+                <div class="text-center mb-10 md:mb-20 lg:mb-16">
+                    <h1 class="text-[18px] lg:text-[20px] text-gray-700 mb-4 animate-fade-in-delayed">
                         Photo Library
                     </h1>
-                    <p class="text-md lg:text-[17px] text-slate-600 mb-2 animate-fade-in-delayed-2">
+                    <p class="text-[16px] lg:text-[17px] text-slate-600 mb-2 animate-fade-in-delayed-2">
                         Fujifilm X-T5
                     </p>
-                    <p class="text-base lg:text-[15px] text-slate-500 animate-fade-in-delayed-3 mb-6 lg:mb-8">
+                    <p class="text-[14px] lg:text-[15px] text-slate-500 animate-fade-in-delayed-3 lg:mb-8">
                         XF 16-55mm f/2.8 R LM WR II
                     </p>
                 </div>

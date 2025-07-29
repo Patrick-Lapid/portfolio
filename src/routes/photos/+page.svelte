@@ -41,16 +41,15 @@
     }
 
     function closeViewer() {
-        if (isViewerClosing) return; // Prevent multiple close attempts
+        if (isViewerClosing) return;
         
         isViewerClosing = true;
         
-        // Wait for animation to complete before actually closing
         setTimeout(() => {
             isViewerOpen = false;
             isViewerClosing = false;
             document.body.style.overflow = 'auto';
-        }, 150); // Match the animation duration
+        }, 150)
     }
 
     function nextImage() {
@@ -77,7 +76,6 @@
         }
     }
 
-    // Add keyboard event listener
     import { onMount } from 'svelte';
     
     onMount(() => {
@@ -91,7 +89,7 @@
 
 <div class="min-h-screen bg-slate-50">
     <div class="container mx-auto px-4 sm:px-8 lg:px-8 max-w-6xl">
-        <div class="pt-20 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
+        <div class="pt-24 sm:pt-24 lg:pt-32 pb-12 sm:pb-16 lg:pb-20">
             <article>
                 <div class="text-center mb-16 md:mb-20">
                     <h1 class="text-xl lg:text-[20px] text-gray-700 mb-4 animate-fade-in-delayed">
@@ -110,13 +108,13 @@
                     <!-- Column 1 -->
                     <div class="space-y-4 md:space-y-6">
                         <div>
-                            <img src={images[0]} alt="Landscape Photo 1" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-fade-in-delayed" on:click={() => openViewer(0)} />
+                            <img src={images[0]} alt="Landscape Photo 1" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-image-fade-in-1" on:click={() => openViewer(0)} />
                         </div>
                         <div>
-                            <img src={images[1]} alt="Landscape Photo 2" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-fade-in-delayed-2" on:click={() => openViewer(1)} />
+                            <img src={images[1]} alt="Landscape Photo 2" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-image-fade-in-2" on:click={() => openViewer(1)} />
                         </div>
                         <div>
-                            <img src={images[2]} alt="Landscape Photo 3" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-fade-in-delayed-3" on:click={() => openViewer(2)} />
+                            <img src={images[2]} alt="Landscape Photo 3" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-image-fade-in-3" on:click={() => openViewer(2)} />
                         </div>
                         <div>
                             <img src={images[3]} alt="Landscape Photo 4" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity" on:click={() => openViewer(3)} />
@@ -132,14 +130,14 @@
                     <!-- Column 2 -->
                     <div class="space-y-4 md:space-y-6">
                         <div>
-                            <img src={images[6]} alt="Landscape Photo 7" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-fade-in-delayed" on:click={() => openViewer(6)} />
+                            <img src={images[6]} alt="Landscape Photo 7" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-image-fade-in-7" on:click={() => openViewer(6)} />
                         </div>
                         
                         <div>
-                            <img src={images[7]} alt="Landscape Photo 8" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-fade-in-delayed-2" on:click={() => openViewer(7)} />
+                            <img src={images[7]} alt="Landscape Photo 8" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-image-fade-in-8" on:click={() => openViewer(7)} />
                         </div>
                         <div>
-                            <img src={images[8]} alt="Landscape Photo 9" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-fade-in-delayed-3" on:click={() => openViewer(8)} />
+                            <img src={images[8]} alt="Landscape Photo 9" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity animate-image-fade-in-9" on:click={() => openViewer(8)} />
                         </div>
                         <div>
                             <img src={images[9]} alt="Landscape Photo 10" class="w-full object-cover cursor-pointer hover:opacity-90 transition-opacity" on:click={() => openViewer(9)} />
@@ -171,18 +169,16 @@
             <button 
                 class="cursor-pointer shadow-xs absolute top-4 right-4 text-slate-700 hover:text-gray-300 transition-colors bg-white bg-opacity-50 rounded-full w-10 h-10 flex items-center justify-center backdrop-blur-sm viewer-close-btn"
                 on:click={closeViewer}
-                style="background-color: rgba(255, 255, 255, 0.5) !important;"
             >
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
+                </svg>  
             </button>
             
             <!-- Navigation Arrows -->
             <button 
                 class="cursor-pointer shadow-xs absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-700 hover:text-gray-300 transition-colors bg-white bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center backdrop-blur-sm viewer-nav-btn"
                 on:click={previousImage}
-                style="background-color: rgba(255, 255, 255, 0.5) !important;"
             >
                 <svg class="w-6 h-6 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
@@ -192,7 +188,6 @@
             <button 
                 class="cursor-pointer shadow-xs absolute right-4 top-1/2 transform -translate-y-1/2 text-slate-700 hover:text-gray-300 transition-colors bg-white bg-opacity-50 rounded-full w-12 h-12 flex items-center justify-center backdrop-blur-sm viewer-nav-btn"
                 on:click={nextImage}
-                style="background-color: rgba(255, 255, 255, 0.5) !important;"
             >
                 <svg class="w-6 h-6 text-slate-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -231,6 +226,36 @@
 
     .animate-fade-in-delayed-3 {
         animation: fadeIn 0.5s ease-out 0.45s forwards;
+        opacity: 0;
+    }
+
+    .animate-image-fade-in-1 {
+        animation: fadeIn 0.5s ease-out 0.45s forwards;
+        opacity: 0;
+    }
+
+    .animate-image-fade-in-2 {
+        animation: fadeIn 0.5s ease-out 0.6s forwards;
+        opacity: 0;
+    }
+
+    .animate-image-fade-in-3 {
+        animation: fadeIn 0.5s ease-out 0.75s forwards;
+        opacity: 0;
+    }
+
+    .animate-image-fade-in-7 {
+        animation: fadeIn 0.5s ease-out 0.45s forwards;
+        opacity: 0;
+    }
+
+    .animate-image-fade-in-8 {
+        animation: fadeIn 0.5s ease-out 0.6s forwards;
+        opacity: 0;
+    }
+
+    .animate-image-fade-in-9 {
+        animation: fadeIn 0.5s ease-out 0.75s forwards;
         opacity: 0;
     }
 
